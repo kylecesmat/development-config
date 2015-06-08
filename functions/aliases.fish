@@ -10,22 +10,19 @@ alias ga="git add"
 alias gca="git commit -a -m"
 alias gcm="git commit -m"
 alias gbd="git branch -D"
-alias gst="git status -sb --ignore-submodules"
+alias gs="git status -sb --ignore-submodules"
 alias gm="git merge --no-ff"
 alias gpt="git push --tags"
 alias gp="git push"
 alias grs="git reset --soft"
 alias grh="git reset --hard"
 alias gb="git branch"
-alias gcob="git checkout -b"
-alias gco="git checkout"
+alias gcb="git checkout -b"
+alias gc="git checkout"
 alias gba="git branch -a"
 alias gcp="git cherry-pick"
 alias gl="git lg"
 alias gpom="git pull origin master"
-# turn on coloring on grep
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
 
 ################################
 ###  General Shourtcuts
