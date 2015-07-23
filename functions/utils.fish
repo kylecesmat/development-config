@@ -20,5 +20,11 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true and 
 
 # Disable Spotlight
 alias spotoff="sudo mdutil -a -i off"
+
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"
+
+# Network Stuff
+alias localip="ipconfig getifaddr en1"
+alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ and print $1'"
+alias whois="whois -h whois-servers.net"

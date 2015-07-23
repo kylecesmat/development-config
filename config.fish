@@ -6,3 +6,4 @@
 . "$HOME/.config/fish/functions/fish_title.fish"
 . "$HOME/.config/fish/functions/mkpull.fish"
 . "$HOME/.config/fish/functions/utils.fish"
+. "$HOME/.config/fish/functions/z.fish"
