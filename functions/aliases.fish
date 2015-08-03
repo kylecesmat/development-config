@@ -47,4 +47,4 @@ alias gl="git lg"
 ################################
 
 ## Mobile iOS testing
-alias ios='open /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app'
+alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app'
